@@ -1,0 +1,11 @@
+This system handles automatic desktop background selection from a list
+of images. To use it, place the desired images into the `all/` directory,
+and add a symlink in the `active/` directory pointing to the image.
+
+`select_background.sh` selects a background from `active/` at random and
+sets it as the desktop background. Run this whenever you want to select
+a new background.
+
+`import.sh` handles adding and symlinking images for you. To use it,
+just place the desired images in the `to_add/` directory and run the
+script to add them.

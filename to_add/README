@@ -1,0 +1,2 @@
+Place images here and then run import.sh to move them to all/ and add
+the symlink required to activate them.

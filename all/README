@@ -1,0 +1,3 @@
+Contains all images, even those which are not currently enabled.
+To enable an image, place a symlink in active/ pointing to the image
+in this directory. import.sh handles this automatically.

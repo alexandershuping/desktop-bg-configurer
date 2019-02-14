@@ -1,0 +1,3 @@
+Don't put any images here - to enable an image as active, place a 
+symlink to the image in all/ here. This is done automatically by
+import.sh
