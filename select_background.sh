@@ -20,3 +20,6 @@ CHOSEN_IMAGE=$(ls $FILES_DIRECTORY/active | sed -n '/README/!p' | shuf -n 1)
 echo "chose $FILES_DIRECTORY/active/$CHOSEN_IMAGE."
 
 feh --bg-fill $FILES_DIRECTORY/active/$CHOSEN_IMAGE
+
+rm $FILES_DIRECTORY/currently_selected
+ln -s $FILES_DIRECTORY/all/$CHOSEN_IMAGE $FILES_DIRECTORY/currently_selected
